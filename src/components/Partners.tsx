@@ -132,7 +132,7 @@ const Partners: React.FC = () => {
                       <img
                         src={partner.logo}
                         alt={partner.name}
-                        className="w-full h-full object-contain scale-125 filter grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-150 transition-all duration-500"
+                        className="w-full h-full object-contain scale-125 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-150 transition-all duration-500"
                       />
                     </div>
                   )
