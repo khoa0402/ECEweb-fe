@@ -63,7 +63,7 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="scroll-mt-16 py-16 bg-zinc-50">
+    <section id="services" className="scroll-mt-16 py-16 bg-zinc-50 lg:px-28">
       <div className="container mx-auto px-6 md:px-3">
         {/* Header */}
         <div className="flex justify-between items-end mb-12">

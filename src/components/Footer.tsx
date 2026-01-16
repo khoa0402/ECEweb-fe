@@ -52,12 +52,12 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 mb-12">
           {/* Cột 1: Giới thiệu (4 Columns) */}
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-4 lg:pl-8">
             <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
               <span className="w-1.5 h-7 bg-teal-500 rounded-sm"></span>
               Ecom<span className="text-teal-500">Easy</span>
             </h2>
-            <p className="text-xs md:text-sm leading-relaxed mb-6 text-zinc-400">
+            <p className="text-xs md:text-sm leading-relaxed mb-6 text-zinc-400 text-justify">
               We provide comprehensive e-commerce support solutions, helping
               businesses optimize processes and achieve sustainable revenue
               growth.
@@ -68,7 +68,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">
               Our Offices
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-5">
               {locations.map((loc, index) => (
                 <div key={index} className="group space-y-2">
                   <h4 className="text-teal-400 font-semibold text-sm">
